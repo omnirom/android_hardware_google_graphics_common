@@ -349,7 +349,7 @@ int32_t exynos_getRenderIntents(hwc2_device_t* dev, hwc2_display_t display, int3
         return HWC2_ERROR_BAD_PARAMETER;
 
     ExynosDevice *exynosDevice = checkDevice(dev);
-    ALOGD("%s:: mode(%d)", __func__, mode);
+    //ALOGD("%s:: mode(%d)", __func__, mode);
 
     if (exynosDevice) {
         ExynosDisplay *exynosDisplay = checkDisplay(exynosDevice, display);
